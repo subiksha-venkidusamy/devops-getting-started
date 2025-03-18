@@ -1,2 +1,2 @@
-FROM nginx
-COPY ./user/share/nginx/html/
+FROM nginx:latest
+COPY ./codsoft /usr/share/nginx/html/
